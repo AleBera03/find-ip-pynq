@@ -1,0 +1,19 @@
+[package]
+name = "find_ip_pynq"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "find_ip_pynq"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = "1.0.102"
+surge-ping = "0.8.4"
+tokio = { version = "1.21.2", features = ["full"] }
+futures = "0.3.32"
+rand = "0.10.0"
+ssh = "0.1.4"
+eframe = "0.34.1"
+pyo3 = "0.28.3"
