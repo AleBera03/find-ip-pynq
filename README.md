@@ -1,4 +1,4 @@
-# FIND-IP-PYNQ
+# FIND-REMOTE-IP
 
 This script help to find the correct ip of the board if this has access to Internet via Windows ICS. This WIN feature use DHCP protocol to assing board IP, thus this could be change.
 
